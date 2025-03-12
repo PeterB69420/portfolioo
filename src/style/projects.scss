@@ -1,0 +1,109 @@
+// Font family
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Variables
+$section-bg: #274029;
+$card-bg: #60712F;
+$button-bg: #9EA93F;
+$button-txt: #fff;
+$name-color: #000;
+$container-bg: #252525;
+$siteinfo-color: #9c9c9c;
+$txt-color: #fff;
+// styling for projects
+
+.projects {
+
+    &__title {
+        font-family: 'Mulish', serif;
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 2rem;
+        text-align: center;
+        color: $txt-color;
+    }
+
+    &__description {
+        font-family: 'Mulish', sans-serif;
+        font-size: 1.5rem;
+        margin: 1rem;
+        text-align: center;
+        color: $txt-color;
+    }
+
+    &__container {
+        background-color: $container-bg;
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
+
+    &__card {
+        width: 220px;
+        height: 300px;
+        transition: 0.4s;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: $button-txt;
+    }
+
+    &__site {
+        background-color: $card-bg;
+        margin-top: -10px;
+        padding-bottom: 1.5em;
+        padding-top: 1em;
+        z-index: 10;
+        border-radius: 5px;
+    }
+    &__cont {
+        position: relative;
+    }
+    &__div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-self: center;
+        gap: 7rem;
+    }
+
+    &__image {
+        display: grid;
+        justify-self: center;
+        width: 100%;
+    }
+
+    &__name {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        color: $name-color;
+        padding-top: 1em;
+        text-transform: capitalize;
+    }
+
+   
+
+    &__button {
+        background-color: $button-txt;
+        color: $name-color;
+        font-weight: bold;
+        border-style: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: 'Mulish', sans-serif;
+        transition: 0.4s;
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        top: 40%;
+        left: 25%;
+    }
+
+    &__button:hover {
+        color: $button-txt;
+        background-color: #252525;
+        transition: 0.4s;
+    }
+
+}
