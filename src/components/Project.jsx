@@ -18,8 +18,8 @@ export default function Project() {
                 </div>
                 <div className="projects__card">                                       
                 <div className="projects__cont">
-                    <img className="projects__image" src="../mymovies.png" alt="" />
-                    <a className="projects__button" href="https://lort.onrender.com">Visit site</a>
+                    <img className="projects__image" src="../dinmaegler.png" alt="" />
+                    <a className="projects__button" href="https://praktik-din-m-gler-team-2.onrender.com">Visit site</a>
                     <p className="projects__name">Dinmaegler</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Project() {
                      <p className="projects__name">mymovies</p>
                     </div>
                 </div>
-                </div>
+                </div>  
             </section>
         </article> 
         </>

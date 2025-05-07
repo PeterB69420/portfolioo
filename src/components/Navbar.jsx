@@ -12,9 +12,12 @@ export default function Navbar() {
                         <Link to={`/`}>
                         <li className="navbar-header__item"><IoMdHome className="nav-header__icon" /> Home</li>
                         </Link>
+                        <Link to={`/`}>
                         <li className="navbar-header__item"><CgProfile className="nav-header__icon" /> About me</li>
-                    
+                        </Link>
+                        <Link to={`/Projects`}>
                         <li className="navbar-header__item"><GoProjectRoadmap className="nav-header__icon" /> Projects</li>
+                        </Link>
                     </ul>
                 </nav>
             </header>

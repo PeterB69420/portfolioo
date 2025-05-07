@@ -1,0 +1,50 @@
+// Font family
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// variables
+$mainfont-color: #fff;
+
+// hero styling 
+
+.hero {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #000;
+    }
+
+    &__title {
+        font-family: 'Mulish', serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: $mainfont-color;
+    }
+
+    &__description {
+        font-family: 'Mulish', sans-serif;
+        font-size: 1.5rem;
+        color: $mainfont-color;
+    }
+
+    &__button {
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 20px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: 20px;
+        transition: 0.5s;
+    }
+    &__button:hover {
+        background-color: #fff;
+        color: #000;
+        transition: 0.5s;
+    }
+}
