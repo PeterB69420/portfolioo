@@ -3,8 +3,8 @@ import React from 'react';
 import '../style/nav.scss';
 import '../style/important.scss';
 import '../style/starrule.scss';
-import '../style/hero.scss';
-import Hero from "../components/Hero";
+import '../style/projects.scss';
+import Project from "../components/Project";
 
 export default function Index() {
     return (
@@ -12,7 +12,7 @@ export default function Index() {
         <main className="main">
         <div id="wrapper">
             <Navbar />
-            <Hero />
+            <Project />
         </div>
         </main>
         </>
