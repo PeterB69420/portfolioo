@@ -6,7 +6,7 @@ import '../style/starrule.scss';
 import '../style/projects.scss';
 import Project from "../components/Project";
 
-export default function Index() {
+export default function Projects() {
     return (
         <>
         <main className="main">
